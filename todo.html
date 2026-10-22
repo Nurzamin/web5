@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do App | JavaScript Basics</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="todo.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Interactive To-Do List</h1>
+    <nav>
+      <a href="index.html">Home</a><a href="intro.html">Introduction</a>
+      <a href="dom.html">DOM</a><a href="events.html">Events</a><a href="todo.html">To-Do App</a>
+    </nav>
+  </header>
+  <main>
+    <section class="card">
+      <h2>Task 8. Build a To-Do App</h2>
+      <p>Add tasks, click a task to mark it completed, or delete it.</p>
+      <form id="taskForm">
+        <input id="taskInput" type="text" placeholder="Enter a task" autocomplete="off">
+        <button type="submit">Add Task</button>
+      </form>
+      <p id="taskMessage" class="message"></p>
+      <ul id="taskList" class="task-list"></ul>
+      <p id="taskCount">Tasks: 0</p>
+    </section>
+  </main>
+  <footer>Assignment #5 | To-Do App</footer>
+</body>
+</html>

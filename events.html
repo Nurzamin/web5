@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events and Calculator | JavaScript Basics</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="events.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Events and Calculator</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="intro.html">Introduction</a>
+      <a href="dom.html">DOM</a>
+      <a href="events.html">Events</a>
+      <a href="todo.html">To-Do App</a>
+    </nav>
+  </header>
+  <main>
+    <section class="card">
+      <h2>Task 5. Mouse Events</h2>
+      <div id="mouseBox" class="demo-box mouse-box">Move your mouse over me</div>
+    </section>
+    <section class="card">
+      <h2>Task 6. Keyboard Events</h2>
+      <label for="liveInput">Type something:</label>
+      <input id="liveInput" type="text" placeholder="Start typing...">
+      <p>Current value: <strong id="liveOutput">Nothing yet</strong></p>
+    </section>
+    <section class="card">
+      <h2>Task 7. Calculator</h2>
+      <div class="calculator">
+        <input id="firstNumber" type="number" placeholder="First number">
+        <input id="secondNumber" type="number" placeholder="Second number">
+        <div class="button-row">
+          <button data-operation="add">+</button>
+          <button data-operation="subtract">−</button>
+          <button data-operation="multiply">×</button>
+          <button data-operation="divide">÷</button>
+        </div>
+        <p id="calcResult">Result: —</p>
+      </div>
+    </section>
+  </main>
+  <footer>Assignment #5 | Events</footer>
+</body>
+</html>
